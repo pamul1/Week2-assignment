@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Forms</h1>
+
+    <form action="index.html">
+        <label for="inputName"> Name </label>
+        <input id="inputName" name="inputName" type="text" required>
+
+        <label for="inputGender"> Gender </label>
+        <input id="inputGender" name="inputGender" type="gender" required>
+
+        <label for="inputEmail"> Email </label>
+        <input id="inputEmail" name="inputEmail" type="email" required>
+
+        <label for="inputPassword"> password </label>
+        <textarea id="inputPassword" name="inputPassword" required></textarea>
+
+        <label for="inputPhonenumber">Phone number</label>
+        <select id="inputPhonenumber">
+            <option selected>Select Option</option>
+            <option value="Female" >Female</option>
+            <option value="Male" >Male</option>
+        </select>
+
+        <button onclick="formSubmission()">Send</button>
+
+    </form>
+    
+
+    <table id="dataOutput">
+
+        
+        
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
