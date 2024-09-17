@@ -16,8 +16,12 @@
         <label for="inputName"> Name </label>
         <input id="inputName" name="inputName" type="text" required>
 
-        <label for="inputGender"> Gender </label>
-        <input id="inputGender" name="inputGender" type="gender" required>
+        <label for="inputGender">Gender</label>
+        <select id="inputGender">
+            <option selected>Select Option</option>
+            <option value="Female" >Female</option>
+            <option value="Male" >Male</option>
+        </select>
 
         <label for="inputEmail"> Email </label>
         <input id="inputEmail" name="inputEmail" type="email" required>
@@ -26,11 +30,7 @@
         <textarea id="inputPassword" name="inputPassword" required></textarea>
 
         <label for="inputPhonenumber">Phone number</label>
-        <select id="inputPhonenumber">
-            <option selected>Select Option</option>
-            <option value="Female" >Female</option>
-            <option value="Male" >Male</option>
-        </select>
+        <input id="inputPhonenumber" name="inputPhonenumberr" type="phonenumber" required>
 
         <button onclick="formSubmission()">Send</button>
 
